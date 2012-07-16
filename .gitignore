@@ -1,0 +1,7 @@
+﻿*.dll
+*.tlog
+*.obj
+*.pdb
+*.log
+*.sdf
+*.opensdf

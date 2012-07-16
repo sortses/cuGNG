@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tmapas.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="geom_gts.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurona.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRGB.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GNG_utils.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geom_gts.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="cuGNG3D.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="reduction.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="tmapas.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurona.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRGB.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GNG_utils.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuGNG3D.cu">
+      <Filter>cu</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{785228b2-03b9-40b8-9592-e618aae23d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{0f2883e6-69a6-4e76-934d-a9dce0a23c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cu">
+      <UniqueIdentifier>{94462951-b3d8-49a8-aabb-918fd78cbac1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sharedmem.cuh">
+      <Filter>inc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
