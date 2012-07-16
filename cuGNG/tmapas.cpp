@@ -1128,6 +1128,7 @@ void erase(std::vector<cv::Point3f> &pcl, double x, double y, double z)
 
 void Mapa::sort()
 {
+	// centroid of the learned network
 	cv::Point3f centroid = this->centroid();
 	centroid.x /= 10;
 	centroid.y /= 10;
